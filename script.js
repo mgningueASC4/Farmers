@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
    // Data Picker Initialization
    // $('.datepicker').pickadate();
@@ -14,14 +13,15 @@ $(document).ready(function () {
 
    $(".Submit").click(function () {
       title = $('.eventTitle').val();
-      link = $('.eventLink').val()
-      linkLabel = $('.linkLabel').val()
-      fromDate = $('.fromDate').val()
-      atFromTime = $('.atFromTime').val()
+      link = $('.eventLink').val();
+      linkLabel = $('.linkLabel').val();
+      fromDate = $('.fromDate').val();
+      atFromTime = $('.atFromTime').val();
       atDate = $('.toDate').val();
       atToTime = $('atToTime').val();
-      description = $('.description').val()
+      description = $('.description').val();
       address = $('.address').val();
-   })
+      console.log(title, link, linkLabel);
+   });
 
 });

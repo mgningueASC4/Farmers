@@ -300,6 +300,16 @@ a:hover {
   color:#fff;
 }
 
+.statPic{
+	max-width:20%;
+	height: auto;
+}
+#teamPic{
+	max-width:100%;
+	height:auto;
+}
+
+
 a.accordion-toggle  i{
   width: 40px;
   line-height: 38px;
@@ -326,6 +336,18 @@ a.accordion-toggle  i{
 /*===========================
   Services
 ============================ */
+#HowToUse{
+	padding: 20px 0;
+	background:#f6f6f6;
+}
+
+#AboutUs{
+	padding: 20px 0;
+	background: #ffffff;
+}
+#ourTeam{
+	background:#f6f6f6;
+}
 #services {
 	padding:100px;
 	background:#f6f6f6;	
